@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|64412500|32332500|04280260-3175-4e88-b24c-fc3f774fe89a|8d2a908d-fd97-4180-ad87-56982212fc2d",
+          "copper_edge_clearance|64412500|31732500|80a79f6b-f162-4197-a321-ee9ccc437dd2|8d2a908d-fd97-4180-ad87-56982212fc2d",
           ""
         ],
         [
-          "copper_edge_clearance|64412500|40972500|3568a20e-50a7-4293-ac6d-07a738e5af5a|d5ffa970-c75e-435b-a173-4eb1e3faeb53",
+          "copper_edge_clearance|64412500|40372500|71bc0da5-1428-4d85-9054-ba36d627f042|d5ffa970-c75e-435b-a173-4eb1e3faeb53",
           ""
         ],
         [
@@ -631,6 +631,10 @@
       {
         "netclass": "+5V",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "VBUS"
       }
     ]
   },
@@ -754,6 +758,18 @@
           "label": "Digikey_PN",
           "name": "Digikey_PN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Silk",
+          "name": "Silk",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
         }
       ],
       "filter_string": "",

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 25,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -124,6 +124,18 @@
           "pos_y": 142,
           "size_x": 1792,
           "size_y": 1095
+        }
+      },
+      {
+        "name": "ESPFlash.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -2678,
+          "pos_y": 178,
+          "size_x": 2560,
+          "size_y": 1357
         }
       }
     ]

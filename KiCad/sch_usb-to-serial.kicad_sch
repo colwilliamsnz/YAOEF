@@ -2620,12 +2620,6 @@
 		(uuid "340cd986-6768-4d0f-b562-115051a1c37d")
 	)
 	(junction
-		(at 88.9 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f0b3e23-d253-4120-a56f-d4f593423ed0")
-	)
-	(junction
 		(at 149.86 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2733,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 53.34) (xy 74.93 58.42)
+			(xy 74.93 54.61) (xy 74.93 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2903,16 +2897,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 44.45) (xy 88.9 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b73525e-dd22-458c-accc-624fb65ec7b6")
-	)
-	(wire
-		(pts
 			(xy 76.2 71.12) (xy 53.34 71.12)
 		)
 		(stroke
@@ -2993,16 +2977,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 44.45) (xy 88.9 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8718ce0d-6ec2-48ca-94f2-4444f7d03745")
-	)
-	(wire
-		(pts
 			(xy 53.34 60.96) (xy 53.34 62.23)
 		)
 		(stroke
@@ -3033,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 48.26) (xy 74.93 44.45)
+			(xy 74.93 49.53) (xy 74.93 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3133,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 36.83) (xy 88.9 44.45)
+			(xy 88.9 36.83) (xy 88.9 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3556,6 +3530,14 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fc0c26b7-4b62-4212-828d-3079c72c9d99")
 		)
@@ -3630,7 +3612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bipolar (BJT) Transistor Array 2 NPN 40V 200mA 300MHz 200mW Surface Mount SOT-363"
+		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
 			(at 163.83 111.76 0)
 			(effects
 				(font
@@ -3655,6 +3637,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -3712,7 +3702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.34 43.18 0)
 			(effects
 				(font
@@ -3730,7 +3720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 53.34 43.18 0)
 			(effects
 				(font
@@ -3748,13 +3738,21 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_PN" ""
+		(property "Digikey_PN" "1276-1784-1-ND"
 			(at 53.34 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 53.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3880,7 +3878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
 			(at 53.34 76.2 0)
 			(effects
 				(font
@@ -3898,13 +3896,21 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_PN" ""
+		(property "Digikey_PN" "541-4050-1-ND"
 			(at 53.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 53.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3917,6 +3923,71 @@
 			(project "ESPFlash"
 				(path "/025ade93-30a9-4247-8f8c-ea2eaab4b489/a1a94d86-b9d7-4117-a96c-93ab2f581858"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 74.93 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f2eb423-c02b-4411-bbef-7044f283419b")
+		(property "Reference" "#PWR017"
+			(at 74.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 74.93 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 74.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "007e07bf-d977-4dcf-839d-823edd387761")
+		)
+		(instances
+			(project "ESPFlash"
+				(path "/025ade93-30a9-4247-8f8c-ea2eaab4b489/a1a94d86-b9d7-4117-a96c-93ab2f581858"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3992,6 +4063,46 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 151.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 151.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 151.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 151.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "abde177d-ddea-44c5-8fa6-5241ca9455fb")
 		)
@@ -4009,7 +4120,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 74.93 50.8 180)
+		(at 74.93 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4017,7 +4128,7 @@
 		(dnp no)
 		(uuid "12b9ae42-419f-4d29-a260-b09199658c00")
 		(property "Reference" "R4"
-			(at 77.47 50.8 90)
+			(at 77.47 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +4136,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 72.39 50.8 90)
+			(at 72.39 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4144,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 74.93 50.8 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 50.8 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +4162,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 74.93 50.8 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4171,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 74.93 50.8 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,12 +4180,52 @@
 			)
 		)
 		(property "Digikey_PN" "541-3993-1-ND"
-			(at 74.93 50.8 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4135,7 +4286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "4.7 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
 			(at 151.13 57.15 0)
 			(effects
 				(font
@@ -4160,6 +4311,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4223,7 +4382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Green 570nm LED Indication - Discrete 2V 0603 (1608 Metric)"
 			(at 158.75 48.26 0)
 			(effects
 				(font
@@ -4241,7 +4400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_PN" ""
+		(property "Digikey_PN" "732-4980-1-ND"
 			(at 158.75 48.26 0)
 			(effects
 				(font
@@ -4250,13 +4409,12 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Sim.Pins" ""
 			(at 158.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4345,6 +4503,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"
@@ -4605,7 +4803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
 			(at 154.94 93.98 0)
 			(effects
 				(font
@@ -4623,13 +4821,21 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_PN" ""
+		(property "Digikey_PN" "A121523CT-ND"
 			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4690,7 +4896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
 			(at 154.94 111.76 0)
 			(effects
 				(font
@@ -4708,13 +4914,21 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_PN" ""
+		(property "Digikey_PN" "A121523CT-ND"
 			(at 154.94 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4802,7 +5016,7 @@
 		(at 233.68 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7ea35e8a-b239-4dbc-9f81-68596c033748")
@@ -4865,6 +5079,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 233.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 233.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 233.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 233.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 233.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4937,7 +5191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "22.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
 			(at 53.34 66.04 0)
 			(effects
 				(font
@@ -4955,13 +5209,21 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_PN" ""
+		(property "Digikey_PN" "541-5271-1-ND"
 			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5089,7 +5351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)"
 			(at 158.75 57.15 0)
 			(effects
 				(font
@@ -5107,7 +5369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_PN" ""
+		(property "Digikey_PN" "160-1434-1-ND"
 			(at 158.75 57.15 0)
 			(effects
 				(font
@@ -5116,13 +5378,12 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Sim.Pins" ""
 			(at 158.75 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5381,7 +5642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 100nF (0.1uF) 16V X7R 0603"
 			(at 63.5 43.18 0)
 			(effects
 				(font
@@ -5399,13 +5660,21 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_PN" ""
+		(property "Digikey_PN" "399-C0603C104K4RACTUCT-ND"
 			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
