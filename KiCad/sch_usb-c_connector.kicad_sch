@@ -3162,12 +3162,22 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Stocked" "Yes"
 			(at 214.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Silk" ""
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

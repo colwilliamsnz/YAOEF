@@ -2717,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 50.8) (xy 228.6 50.8)
+			(xy 214.63 52.07) (xy 228.6 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2904,16 +2904,6 @@
 			(type default)
 		)
 		(uuid "72671460-d98a-4806-a97a-4a151c62a1b9")
-	)
-	(wire
-		(pts
-			(xy 228.6 50.8) (xy 228.6 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "735c1c6e-0f72-4c7f-a943-5aa7b0f122ac")
 	)
 	(wire
 		(pts
@@ -3427,7 +3417,7 @@
 	)
 	(hierarchical_label "ESPFLASH_PWR"
 		(shape input)
-		(at 215.9 50.8 180)
+		(at 214.63 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4018,7 +4008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.13 48.26 0)
 			(effects
 				(font
@@ -4054,7 +4044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_PN" ""
+		(property "Digikey_PN" "MCT0603-1.00K-MFCT-ND"
 			(at 151.13 48.26 0)
 			(effects
 				(font
@@ -4101,6 +4091,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Silk" ""
+			(at 151.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stocked" "Yes"
+			(at 151.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4143,7 +4151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 74.93 52.07 0)
 			(effects
 				(font
@@ -4179,7 +4187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_PN" "541-3993-1-ND"
+		(property "Digikey_PN" "MCT0603-1.00K-MFCT-ND"
 			(at 74.93 52.07 0)
 			(effects
 				(font
@@ -4228,6 +4236,24 @@
 				)
 			)
 		)
+		(property "Silk" ""
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stocked" "Yes"
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c2238b7-b0ea-496a-8b47-af282a36e876")
 		)
@@ -4268,7 +4294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.13 57.15 0)
 			(effects
 				(font
@@ -4304,7 +4330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_PN" "541-3993-1-ND"
+		(property "Digikey_PN" "MCT0603-1.00K-MFCT-ND"
 			(at 151.13 57.15 0)
 			(effects
 				(font
@@ -4319,6 +4345,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Silk" ""
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stocked" "Yes"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4777,7 +4822,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 154.94 93.98 90)
 			(effects
 				(font
@@ -4870,7 +4915,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 154.94 111.76 90)
 			(effects
 				(font
@@ -4929,6 +4974,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Silk" ""
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stocked" ""
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5669,12 +5732,22 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Stocked" "Yes"
 			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Silk" ""
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

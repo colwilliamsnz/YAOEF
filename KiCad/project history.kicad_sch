@@ -112,7 +112,7 @@
 		)
 		(uuid "e6b85207-d86a-42b7-be2a-1e4ca9ab7743")
 	)
-	(text_box "* Swapped LDO regulator for a SOT-23 device (previous was large SOT223). This opens up room on the board for a power switch.\n\n* Added surface mount power switch to allow 3.3V to be disabled on ESPFlash header. Allows in circuit serial monitoring/flashing when circuit is under normal power.\n\n* Added tear drops to vias and critical through-holes."
+	(text_box "* Swapped LDO regulator for a SOT-23 device (previous was large SOT223). This opens up room on the board for a power switch.\n\n* Added surface mount power switch to allow 3.3V to be disabled on ESPFlash header. Allows in circuit serial monitoring/flashing when circuit is under normal power.\n\n* Added tear drops to vias and critical through-holes.\n\n* Updated BOM entries to include DigiKey cut-tape options (and noted own stocked items)."
 		(exclude_from_sim no)
 		(at 109.22 38.1 0)
 		(size 81.28 142.24)
