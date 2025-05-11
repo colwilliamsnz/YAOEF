@@ -2569,6 +2569,17 @@
 		)
 		(uuid "9d2c5201-bae5-4cec-8b2a-3a1f0e329e27")
 	)
+	(text "*1"
+		(exclude_from_sim no)
+		(at 157.226 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "a4c84161-2d14-48e1-90d3-ffa5fb6933e4")
+	)
 	(text "Auto Programming"
 		(exclude_from_sim no)
 		(at 142.24 87.63 0)
@@ -2600,6 +2611,30 @@
 			)
 		)
 		(uuid "82e295cc-1057-4019-86d2-fa307d5fbd8a")
+	)
+	(text_box "* 1 - DESIGN NOTE:\n\nThe TX/RX LEDs will not light out of the box. The CP2102N UART needs to be reprogrammed using the Silicon Labs Xpress Configurator.\n\n"
+		(exclude_from_sim no)
+		(at 52.07 137.795 0)
+		(size 53.34 17.78)
+		(margins 1.2025 1.2025 1.2025 1.2025)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+			(href "https://community.silabs.com/s/question/0D58Y00008Q3vOSSAZ/cp2102na02gqfn24-gpio0-tx-led-gpio1-rx-led-not-working?language=en_US")
+		)
+		(uuid "8a61afad-bcd9-4c3f-bd21-fa00659c9534")
 	)
 	(junction
 		(at 53.34 71.12)
@@ -3901,6 +3936,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Silk" ""
+			(at 53.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stocked" ""
+			(at 53.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

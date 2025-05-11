@@ -2,7 +2,7 @@
 
 ## Status:
 
-Prototype. Design complete but not tested in its built form.
+Tested. A PCB with this design has been built and tested.
 
 ## Introduction:
 

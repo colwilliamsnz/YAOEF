@@ -120,10 +120,10 @@
         "window": {
           "display": 1,
           "maximized": true,
-          "pos_x": -2309,
+          "pos_x": -2560,
           "pos_y": 25,
-          "size_x": 1792,
-          "size_y": 1095
+          "size_x": 2560,
+          "size_y": 1301
         }
       }
     ]
